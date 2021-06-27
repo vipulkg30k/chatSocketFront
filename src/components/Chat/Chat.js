@@ -9,7 +9,7 @@ import Input from '../Input/Input';
 
 import './Chat.css';
 
-const ENDPOINT = 'localhost:5000';
+const ENDPOINT = 'https://chatsocketiapp.herokuapp.com/';
 
 let socket = io(ENDPOINT, { transports: [ "websocket", "polling", "flashsocket" ] });
 
